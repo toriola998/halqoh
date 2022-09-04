@@ -1,11 +1,10 @@
 <template>
-  <div>
-    <h1>Helooo world</h1>
-  </div>
+    <div>
+        <router-view />
+    </div>
 </template>
 
 <script>
-
 
 export default {
   name: 'App',
