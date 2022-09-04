@@ -6,7 +6,7 @@
             width=""
             class="go-back"/>
         <img src="./../assets/green-photo.svg" 
-            class="photos cover"
+            class="cover"
             alt=""
             height=""
             width=""/>
@@ -29,12 +29,12 @@
             </div>
         </div>
 
-
-        <div class="current-song flex">  
+        <!--PLAY, PAUSE, NEXT, PREVIOUS, SHUFFLE CONTROLS-->
+        <div class="flex controls">
             <img src="./../assets/icons/shuffle.svg" 
-                 alt=""
-                 width=""
-                 height=""/>
+                    alt=""
+                    width=""
+                    height=""/>
             <div class="circle">
                 <img src="./../assets/icons/previous.svg"
                     alt=""
@@ -43,32 +43,30 @@
             </div>
             <div class="circle">
                 <img src="./../assets/icons/play-btn.svg"
-                     alt=""
-                     height=""
-                     width=""/>
+                        alt=""
+                        height=""
+                        width=""/>
                 <img src="./../assets/icons/pause.png"
-                     alt=""
-                     height=""
-                     width=""/>
+                        alt=""
+                        height=""
+                        width=""/>
             </div>
             <div class="circle">
                 <img src="./../assets/icons/next.svg"
-                     alt=""
-                     height=""
-                     width=""/>
+                        alt=""
+                        height=""
+                        width=""/>
             </div>
             <img src="./../assets/icons/repeat.svg"
                 alt=""
                 height=""
                 width=""/>
-
-</div>
-</div>
+        </div> 
+    </div>
 </template>
 
 <script>
 export default {
-
 }
 </script>
 
@@ -91,10 +89,8 @@ export default {
         margin: 1rem 0;
     }
 
-    .current-song {
+    .controls {
         justify-content: space-between;
-        /* justify-content: space-evenly; */
-        margin: 1.5rem;
-        background-color: white;
+        margin-top: 2rem;
     }
 </style>

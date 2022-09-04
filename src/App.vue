@@ -38,6 +38,7 @@ export default {
 
 p {
     color: white;
+    font-size: .9rem;
 }
 
 .circle {
@@ -51,7 +52,8 @@ p {
 
 .song,
 .name,
-.music-duration {
+.music-duration,
+.current-controls {
     justify-content: space-between;
 }
 </style>
