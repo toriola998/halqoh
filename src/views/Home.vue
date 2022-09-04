@@ -2,11 +2,20 @@
     <div class="home">
         <div class="song flex">
             <div>
-                <p class="song-name">Burdha</p>
-                <p class="artist-name">Sami Yusuf</p>
+                <p>Burdha</p>
+                <p>Sami Yusuf</p>
             </div>
             <div class="circle flex">
-                <img src="./../assets/icons/play-btn.svg" class="play-btn"/>
+                <img src="./../assets/icons/play-btn.svg"
+                    alt="play lecture"
+                    height=""
+                    width=""/>
+                <img src="./../assets/icons/pause.png"
+                    alt="pause lecture"
+                    height=""
+                    width=""
+                    v-if="this.isPlaying"
+                    />    
             </div>
         </div>
     </div>
@@ -14,7 +23,11 @@
 
 <script>
 export default {
-
+    data() {
+        return {
+            isPlaying: false,
+        }
+  }
 }
 </script>
 
@@ -30,12 +43,10 @@ export default {
     .song {
         justify-content: space-between;
         width: 90vw;
-        height: 70px;
-        background: radial-gradient(102.06% 345.4% at 50% 34.02%, 
-        rgba(87, 29, 102, 0.62) 0%,
-        #223053 100%);
+        height: 4.5rem;
+        background: radial-gradient(102.06% 345.4% at 50% 34.02%, rgba(87, 29, 102, 0.62) 0%, #223053 100%);
         margin: 1rem auto;
-        border-radius: 15px;
+        border-radius: 20px;
         padding: 15px;
     }
 </style>
