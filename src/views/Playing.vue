@@ -28,21 +28,41 @@
                 <p>03:44</p>
             </div>
         </div>
-            <!-- <div class="now-playing-icons flex">  
-                <img src="./assets/shuffle.svg" style="margin-top: 10px" class="shuffle-btn"/>
-                <div class="play-circle flex">
-                    <img src="./assets/previous.svg" class="prev-btn1"/>
-                </div>
-                <div class="play-circle flex">
-                    <img src="./assets/play-btn.svg" class="play-btn1"/>
-                    <img src="./assets/pause.png" class="pause-btn1"/>
-                </div>
-                <div class="play-circle flex">
-                    <img src="./assets/next.svg" class="next-btn1"/>
-                </div>
-                <img src="./assets/repeat.svg" style="margin-top: 10px" class="repeat-btn"/>
-    
-    </div> -->
+
+
+        <div class="current-song flex">  
+            <img src="./../assets/icons/shuffle.svg" 
+                 alt=""
+                 width=""
+                 height=""/>
+            <div class="circle">
+                <img src="./../assets/icons/previous.svg"
+                    alt=""
+                    height=""
+                    width=""/>
+            </div>
+            <div class="circle">
+                <img src="./../assets/icons/play-btn.svg"
+                     alt=""
+                     height=""
+                     width=""/>
+                <img src="./../assets/icons/pause.png"
+                     alt=""
+                     height=""
+                     width=""/>
+            </div>
+            <div class="circle">
+                <img src="./../assets/icons/next.svg"
+                     alt=""
+                     height=""
+                     width=""/>
+            </div>
+            <img src="./../assets/icons/repeat.svg"
+                alt=""
+                height=""
+                width=""/>
+
+</div>
 </div>
 </template>
 
@@ -69,5 +89,12 @@ export default {
 
     .name {
         margin: 1rem 0;
+    }
+
+    .current-song {
+        justify-content: space-between;
+        /* justify-content: space-evenly; */
+        margin: 1.5rem;
+        background-color: white;
     }
 </style>

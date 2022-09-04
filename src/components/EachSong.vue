@@ -4,7 +4,7 @@
             <p>Burdha</p>
             <p>Sami Yusuf</p>
         </div>
-        <div class="circle flex">
+        <div class="circle">
             <img src="./../assets/icons/play-btn.svg"
                 alt="play lecture"
                 height=""

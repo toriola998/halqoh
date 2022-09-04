@@ -24,13 +24,14 @@ export default {
 }
 
 .wrap {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding: 2rem 1rem; 
     background: linear-gradient(135deg, hsla(226, 49%, 19%, 1) 0%, hsla(288, 56%, 26%, 1) 100%);
 }
 
-.flex {
+.flex,
+.circle {
 	display: flex;
 	align-items: center;
 }
