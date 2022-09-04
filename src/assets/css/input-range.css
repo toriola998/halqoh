@@ -1,0 +1,86 @@
+/*input range styles*/
+input[type=range] {
+    height: 0;
+    -webkit-appearance: none;
+     width: 90vw;
+  }
+
+  input[type=range]:focus {
+    outline: none;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    height: 10px;
+    width: 8px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4px;
+  }
+
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #fff;
+  }
+
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px; 
+  }
+
+  input[type=range]::-moz-range-thumb {
+    height: 10px;
+    width: 8px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+
+  input[type=range]::-ms-track {
+    width: 90vw;
+    height: 10px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+
+  input[type=range]::-ms-fill-lower {
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  input[type=range]::-ms-fill-upper {
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    height: 10px;
+    width: 8px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+
+  input[type=range]:focus::-ms-fill-lower {
+    background: #fff;
+  }
+  
+  input[type=range]:focus::-ms-fill-upper {
+    background: #fff;
+  }
+
+/*input range styles*/

@@ -31,7 +31,6 @@ export default {
 
 <style scoped>
      .song {
-        justify-content: space-between;
         width: 90vw;
         height: 4.5rem;
         background: radial-gradient(102.06% 345.4% at 50% 34.02%, rgba(87, 29, 102, 0.62) 0%, #223053 100%);
