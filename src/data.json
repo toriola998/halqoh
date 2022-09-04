@@ -1,0 +1,21 @@
+ [
+    {
+        "name": "Goodness to folks",
+        "path": "./../assets/lectures/Song1.mp3",
+        "artist": "Ustadh Amubieya",
+        "cover": "./../assets/green-photo.svg"
+    },
+    {
+        "name": "Respect your elders",
+        "path": "./../assets/lectures/Song2.mp3",
+        "artist": "Dr Sharofudeen",
+        "cover": "./../assets/duck-photo.svg"
+    },
+    {
+        "name": "Solaat and Zakat",
+        "path": "./../assets/lectures/Song3.mp3",
+        "artist": "Dr Shekoni Mr",
+        "cover": "./../assets/green-photo.svg"
+    }
+]
+
